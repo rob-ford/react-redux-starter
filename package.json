@@ -65,8 +65,9 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
-
-  "czConfig": {
-    "path": "./"
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

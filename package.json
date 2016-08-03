@@ -1,7 +1,6 @@
 {
   "name": "react-redux-starter",
   "description": "Bare bones setup for React/Redux projects",
-  "version": "0.0.0-semantically-released",
   "main": "dist/bundle.js",
   "scripts": {
     "commit": "git-cz",

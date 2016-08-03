@@ -1,5 +1,6 @@
 {
   "name": "react-redux-starter",
+  "version": "0.0.0-semantically-released.0",
   "description": "Bare bones setup for React/Redux projects",
   "main": "dist/bundle.js",
   "scripts": {
@@ -64,9 +65,8 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
+
+  "czConfig": {
+    "path": "./"
   }
 }

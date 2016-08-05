@@ -1,10 +1,9 @@
 {
   "name": "react-redux-starter",
-  "version": "0.0.0-semantically-released.0",
   "description": "Bare bones setup for React/Redux projects",
   "main": "dist/bundle.js",
   "scripts": {
-    "precommit": "rm -rf .nyc_output/*.json",
+    "precommit": "rm -rf .nyc_output/*.json | touch .nyc_output/.dontdelete",
     "commit": "git-cz",
     "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 80 --lines 80",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
